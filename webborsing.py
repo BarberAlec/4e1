@@ -6,6 +6,7 @@ import numpy as np
 import matplotlib
 
 global_delay_time = 0.12
+driver = webdriver.Firefox()
 # =============================================================================
 # utility functions -- ignore
 # =============================================================================
@@ -19,7 +20,7 @@ def select_proj_scen ():
     elem = driver.find_element_by_id("about-scenario")
     elem.click()
     
-def add_week ():
+def plus_week ():
     time.sleep(global_delay_time)
     elem = driver.find_element_by_class_name('btn.plus')
     elem.click()
@@ -29,7 +30,7 @@ def minus_week ():
     elem = driver.find_element_by_class_name('btn.minus')
     elem.click()
     
-def add_worker ():
+def plus_worker ():
     time.sleep(global_delay_time)
     elem = driver.find_element_by_class_name('btn.plus')
     elem.click()
@@ -79,6 +80,7 @@ def minus_proto ():
     elem = driver.find_element_by_class_name('btn.plus')
     elem.click()
     
+    
 # =============================================================================
 # Useful functions -- dont ignore    
 # =============================================================================
@@ -113,7 +115,7 @@ def select_week (week):
         curr_week = int(driver.find_element_by_class_name("value").text)
         
         if (curr_week < week):
-            add_week()
+            plus_week()
         if (curr_week > week):
             minus_week ()
         if (curr_week == week):
@@ -136,9 +138,9 @@ def team_characteristics (num_workers, quality, outsourcing):
         curr_num_workers = int(driver.find_element_by_class_name("value").text)
         
         if (curr_num_workers < num_workers):
-            add_worker ()
+            plus_worker ()
         if (curr_num_workers > num_workers):
-            minus_week()
+            minus_worker()
         if (curr_num_workers == num_workers):
             break
         
@@ -275,30 +277,52 @@ def set_prototypes (num):
     time.sleep(global_delay_time)
     driver.find_element_by_class_name ("tab-button.close.red").click()
 
-driver = webdriver.Firefox()
-driver.get('https://hbsp.harvard.edu/coursepacks/561410')
+def end_week (num_weeks):
+    
+    while True:
+        time.sleep(global_delay_time)
+        curr_week = int(driver.find_element_by_class_name ("value").text)
+        if (curr_week == num_weeks):
+            break
+        if (curr_week < num_weeks):
+            plus_week ()
+        if (curr_week > num_weeks):
+            minus_week ()
+    
+    #end week        
+    time.sleep(global_delay_time)
+    driver.find_element_by_id ("simulate").click ()
+    
+    time.sleep(global_delay_time)
+    driver.find_element_by_class_name ("modal-action.affirmative.btn").click ()
+    
+def startup_affirm ():
+    time.sleep(global_delay_time+2.5)
+    driver.find_element_by_class_name ("modal-action.affirmative.btn").click ()
+    
+    
+def main (passw):
+    driver.get('https://hbsp.harvard.edu/coursepacks/561410')
+    
+    
+    elem = driver.find_element_by_name("email")
+    elem.clear()
+    elem.send_keys('barberal@tcd.ie' + Keys.TAB + passw + Keys.RETURN)
+    
+    print_timer (20)
+    
+    driver.get('https://forio.com/simulate/harvard/project-management/simulation/#prepare')
+    time.sleep(2.5)
+    play_now ()
+    select_model (4)
+    select_week (13)
+    team_characteristics(8,3,3)
+    meetings_overtime (3,2,1,3)
+    set_prototypes (5)
+    end_week (5)        #pass 5 weeks as thats when event happens
+    startup_affirm ()
 
-#assert 'facebook' in browser.title
 
-elem = driver.find_element_by_name("email")
-elem.clear()
-elem.send_keys('barberal@tcd.ie' + Keys.TAB + 'pass!' + Keys.RETURN)
-
-print_timer (20)
-
-#open tab
-#driver.execute_script("window.open('https://forio.com/simulate/harvard/project-management/simulation/#prepare');")
-
-
-# =============================================================================
-# PREPARE SCREEN
-# =============================================================================
-
-driver.get('https://forio.com/simulate/harvard/project-management/simulation/#prepare')
-time.sleep(2.5)
-play_now ()
-select_model (4)
-select_week (13)
-team_characteristics(8,3,3)
-meetings_overtime (3,2,1,3)
-set_prototypes (5)
+if __name__ == "__main__":
+    passw = "insertpassword!"
+    main (passw)
