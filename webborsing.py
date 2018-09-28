@@ -103,22 +103,48 @@ def team_characteristics (num_workers, quality, outsourcing):
             break
         
     #configure quality
+    time.sleep(global_delay_time)
     if quality == 1:
         quality_str = "Basic"
+        input_str = "//*[contains(text(), '" + quality_str + "')]"
+        try:        #for onsome bizare reason, this does work but still throws an excepti
+            driver.find_elements_by_xpath(input_str)[0].click ()
+        except:
+                print ("Error with changing quality")
     if quality == 2:
         quality_str = "Medium"
+        input_str = "//*[contains(text(), '" + quality_str + "')]"
+        try:        #for onsome bizare reason, this does work but still throws an excepti
+            driver.find_elements_by_xpath(input_str)[0].click ()
+        except:
+                print ("Error with changing quality")
     if quality == 3:
         quality_str = "Medium-High"
+        input_str = "//*[contains(text(), '" + quality_str + "')]"
+        try:        #for onsome bizare reason, this does work but still throws an excepti
+            driver.find_elements_by_xpath(input_str)[0].click ()
+        except:
+                print ("Error with changing quality")
     if quality == 4:
         quality_str = "High"
+        input_str = "//input[@class='selector ' and @data-value='4']"
+        try:        #for onsome bizare reason, this does work but still throws an excepti
+            elem = driver.find_elements_by_xpath(input_str)[0]
+            print (elem)
+            elem.click()
+        except:
+                print ("Error with changing quality 5")
+        
+        try:        #for onsome bizare reason, this does work but still throws an excepti
+            driver.find_elements_by_xpath(input_str)[1].click ()
+        except:
+                print ("Error with changing quality 6")
+        
     
-    time.sleep(global_delay_time)
-    input_str = "//*[contains(text(), '" + quality_str + "')]"
+    
+    
+    #input_str = "//*[contains(text(), '" + quality_str + "')]"
     #print (driver.find_elements_by_xpath(input_str))
-    try:
-        driver.find_elements_by_xpath(input_str)[0].click ()
-    except:
-        print ("1")
     
     #configure outsoucing
     if outsourcing == 1:
@@ -135,7 +161,7 @@ def team_characteristics (num_workers, quality, outsourcing):
     try:
         driver.find_elements_by_xpath(input_str)[0].click ()
     except:
-        print ("2")
+        print ("Error with changing outsourcing")
     
     # exit menu screen
     time.sleep(global_delay_time)
@@ -172,5 +198,5 @@ time.sleep(2.5)
 play_now ()
 select_model (3)
 select_week (20)
-team_characteristics(6,1,1)
+team_characteristics(6,4,2)
 

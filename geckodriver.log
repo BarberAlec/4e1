@@ -376,3 +376,747 @@ JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeErr
 1538138968312	Marionette	DEBUG	[2147483652] Frame script registered
 JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript error: https://www.pythonforbeginners.com/error-handling/python-try-and-except?cf_action=sync_comments&post_id=1034, line 1: SyntaxError: expected expression, got '<'
+1538140745279	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Hx0N6ZlqAZtS"
+1538140746442	Marionette	INFO	Listening on port 34463
+1538140746484	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538140746520	Marionette	DEBUG	[2147483649] Frame script loaded
+1538140746521	Marionette	DEBUG	[2147483649] Frame script registered
+1538140746536	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538140746991	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538140747668	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538140749260	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:4475): dconf-WARNING **: 14:19:12.080: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538140752178	Marionette	DEBUG	[2147483669] Frame script loaded
+1538140752179	Marionette	DEBUG	[2147483669] Frame script registered
+1538140752209	Marionette	DEBUG	[2147483672] Frame script loaded
+1538140752209	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538140769409	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538140769578	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538140769591	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538140769699	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538140769699	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538140769699	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538140769699	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538140769699	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538140769700	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538140769729	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538140769994	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538140772703	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538140773062	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140773398	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140773851	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140774358	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140774811	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140775287	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140775772	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140776160	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140776686	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140777173	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140777652	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140778119	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140778612	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140779098	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140779558	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140780051	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 4369, Gecko_IOThread] WARNING: pipe error (46): Connection reset by peer: file /build/firefox-ap9sYq/firefox-62.0+linuxmint1+tara/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538140794230	Marionette	INFO	Stopped listening on port 34463
+1538140862664	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9KqXnGtKKW8m"
+1538140863783	Marionette	INFO	Listening on port 44315
+1538140863868	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538140863898	Marionette	DEBUG	[2147483649] Frame script loaded
+1538140863899	Marionette	DEBUG	[2147483649] Frame script registered
+1538140863907	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538140864233	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538140864878	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538140865409	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:4783): dconf-WARNING **: 14:21:08.293: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538140868397	Marionette	DEBUG	[2147483669] Frame script loaded
+1538140868401	Marionette	DEBUG	[2147483669] Frame script registered
+1538140868425	Marionette	DEBUG	[2147483672] Frame script loaded
+1538140868427	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538140885565	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538140885759	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538140885762	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538140885854	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538140885854	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538140885854	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538140885854	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538140885854	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538140885854	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538140885883	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538140886150	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538140888855	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538140889211	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140889534	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140889996	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140890501	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140890992	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140891467	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140891953	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140892357	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140892853	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140893301	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140893789	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140894262	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140894713	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140895202	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140895867	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140896222	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538140999489	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1EShHP9cMep7"
+1538141000642	Marionette	INFO	Listening on port 45619
+1538141000705	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538141000734	Marionette	DEBUG	[2147483649] Frame script loaded
+1538141000735	Marionette	DEBUG	[2147483649] Frame script registered
+1538141000744	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538141001203	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538141001784	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538141004121	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:5063): dconf-WARNING **: 14:23:27.143: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538141007257	Marionette	DEBUG	[2147483669] Frame script loaded
+1538141007261	Marionette	DEBUG	[2147483669] Frame script registered
+1538141007285	Marionette	DEBUG	[2147483672] Frame script loaded
+1538141007289	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538141024296	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538141024502	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538141024506	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538141024596	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538141024596	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538141024596	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538141024596	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538141024597	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538141024597	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538141024624	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538141024850	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538141027511	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538141027869	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141028188	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141028616	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141029082	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141029557	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141029999	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141030484	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141030832	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141031317	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141031802	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141032278	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141032735	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141033212	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141033700	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141034148	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141034472	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141034838	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 4964, Gecko_IOThread] WARNING: pipe error (46): Connection reset by peer: file /build/firefox-ap9sYq/firefox-62.0+linuxmint1+tara/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538141042381	Marionette	INFO	Stopped listening on port 45619
+1538141115612	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OCFJUo1NZQsc"
+1538141116744	Marionette	INFO	Listening on port 39831
+1538141116816	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538141116847	Marionette	DEBUG	[2147483649] Frame script loaded
+1538141116848	Marionette	DEBUG	[2147483649] Frame script registered
+1538141116855	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538141117275	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538141117850	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538141118482	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:5403): dconf-WARNING **: 14:25:22.060: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538141122177	Marionette	DEBUG	[2147483669] Frame script loaded
+1538141122178	Marionette	DEBUG	[2147483669] Frame script registered
+1538141122204	Marionette	DEBUG	[2147483672] Frame script loaded
+1538141122205	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538141138671	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538141138843	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538141138854	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538141138963	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538141138963	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538141138967	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538141138968	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538141138968	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538141138968	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538141138996	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538141139256	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538141141916	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538141142284	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141142648	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141143101	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141143546	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141144005	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141144502	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141144980	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141145324	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141145775	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141146270	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141146713	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141147188	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141147653	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141148145	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141148753	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141149112	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141517204	Marionette	DEBUG	[2147483707] Frame script loaded
+1538141517210	Marionette	DEBUG	[2147483707] Frame script registered
+1538141524089	Marionette	DEBUG	[4294967297] Frame script loaded
+1538141524090	Marionette	DEBUG	[4294967297] Frame script registered
+1538141697668	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hYdfekuTmIBu"
+1538141698846	Marionette	INFO	Listening on port 40597
+1538141698875	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538141698904	Marionette	DEBUG	[2147483649] Frame script loaded
+1538141698905	Marionette	DEBUG	[2147483649] Frame script registered
+1538141698913	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538141699151	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538141700039	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538141700631	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:6105): dconf-WARNING **: 14:35:03.584: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538141703679	Marionette	DEBUG	[2147483669] Frame script loaded
+1538141703685	Marionette	DEBUG	[2147483669] Frame script registered
+1538141703712	Marionette	DEBUG	[2147483672] Frame script loaded
+1538141703713	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538141720833	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538141720999	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538141721012	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538141721106	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538141721106	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538141721106	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538141721107	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538141721107	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538141721107	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538141721134	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538141721369	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538141724081	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538141724450	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141724773	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141725230	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141725716	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141726159	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141726617	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141727108	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141727466	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141727962	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141728442	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141728918	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141729357	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141729816	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141730307	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141730869	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538141731229	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 6007, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /build/firefox-ap9sYq/firefox-62.0+linuxmint1+tara/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538142096662	Marionette	INFO	Stopped listening on port 40597
+1538142371676	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0t1I8a6gYsdT"
+1538142372691	Marionette	INFO	Listening on port 46011
+1538142372779	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538142372809	Marionette	DEBUG	[2147483649] Frame script loaded
+1538142372810	Marionette	DEBUG	[2147483649] Frame script registered
+1538142372818	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538142373130	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538142373636	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538142374224	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:6507): dconf-WARNING **: 14:46:17.266: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538142377351	Marionette	DEBUG	[2147483669] Frame script loaded
+1538142377362	Marionette	DEBUG	[2147483669] Frame script registered
+1538142377386	Marionette	DEBUG	[2147483672] Frame script loaded
+1538142377387	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538142394387	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538142394548	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538142394552	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538142394647	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538142394647	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538142394648	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538142394648	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538142394648	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538142394648	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538142394677	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538142394943	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538142397608	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538142397964	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142398296	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142398745	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142399261	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142399709	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142400200	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142400697	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142401066	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142401531	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142401999	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142402473	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142402961	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142403440	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142403897	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142404476	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142404841	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 6412, Gecko_IOThread] WARNING: pipe error (46): Connection reset by peer: file /build/firefox-ap9sYq/firefox-62.0+linuxmint1+tara/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538142415759	Marionette	INFO	Stopped listening on port 46011
+1538142424774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3AB5OubGzF6t"
+1538142425805	Marionette	INFO	Listening on port 35977
+1538142425877	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538142425906	Marionette	DEBUG	[2147483649] Frame script loaded
+1538142425907	Marionette	DEBUG	[2147483649] Frame script registered
+1538142425916	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538142426333	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538142427071	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538142427624	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:6798): dconf-WARNING **: 14:47:10.550: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538142430675	Marionette	DEBUG	[2147483669] Frame script loaded
+1538142430679	Marionette	DEBUG	[2147483669] Frame script registered
+1538142430707	Marionette	DEBUG	[2147483672] Frame script loaded
+1538142430707	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538142447773	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538142447947	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538142447957	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538142448372	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538142448372	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538142448372	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538142448372	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538142448372	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538142448373	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538142448373	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538142448609	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538142451253	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538142452066	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142452453	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142452882	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142453349	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142453848	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142454378	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142454873	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142455217	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142455667	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142456173	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142456627	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142457070	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142457556	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142458009	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142458492	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142458844	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142459201	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 6699, Gecko_IOThread] WARNING: pipe error (46): Connection reset by peer: file /build/firefox-ap9sYq/firefox-62.0+linuxmint1+tara/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538142470988	Marionette	INFO	Stopped listening on port 35977
+1538142484060	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rS2M0LEjj39V"
+1538142485194	Marionette	INFO	Listening on port 46773
+1538142485264	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538142485295	Marionette	DEBUG	[2147483649] Frame script loaded
+1538142485296	Marionette	DEBUG	[2147483649] Frame script registered
+1538142485306	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538142485970	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538142486641	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538142487195	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:7086): dconf-WARNING **: 14:48:11.276: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538142491376	Marionette	DEBUG	[2147483669] Frame script loaded
+1538142491380	Marionette	DEBUG	[2147483669] Frame script registered
+1538142491405	Marionette	DEBUG	[2147483672] Frame script loaded
+1538142491405	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538142507523	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538142507697	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538142507706	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538142507802	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538142507802	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538142507802	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538142507802	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538142507802	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538142507802	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538142507835	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538142508121	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538142510769	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538142511117	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142511437	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142511850	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142512347	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142512832	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142513329	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142513807	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142514154	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142514642	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142515112	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142515587	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142516046	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142516524	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142516955	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142517431	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142517895	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142555685	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nzyQ2yTcx5fG"
+1538142556784	Marionette	INFO	Listening on port 35025
+1538142556791	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538142556825	Marionette	DEBUG	[2147483649] Frame script loaded
+1538142556826	Marionette	DEBUG	[2147483649] Frame script registered
+1538142556849	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538142557186	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538142557711	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538142558272	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:7365): dconf-WARNING **: 14:49:20.820: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538142560947	Marionette	DEBUG	[2147483669] Frame script loaded
+1538142560951	Marionette	DEBUG	[2147483669] Frame script registered
+1538142560980	Marionette	DEBUG	[2147483672] Frame script loaded
+1538142560980	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538142578453	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538142578622	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538142578634	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538142578732	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538142578732	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538142578732	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538142578732	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538142578732	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538142578732	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538142578766	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538142579032	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538142581691	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538142582053	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142582418	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142582886	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142583363	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142583821	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142584316	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142584793	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142585181	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142585659	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142586140	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142586613	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142587076	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142587624	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142588087	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142588679	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142589028	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142722262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.65w16GiYE49Y"
+1538142723402	Marionette	INFO	Listening on port 35721
+1538142723469	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538142723501	Marionette	DEBUG	[2147483649] Frame script loaded
+1538142723501	Marionette	DEBUG	[2147483649] Frame script registered
+1538142723510	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538142723816	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538142724666	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538142726987	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:7712): dconf-WARNING **: 14:52:09.833: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538142729942	Marionette	DEBUG	[2147483669] Frame script loaded
+1538142729947	Marionette	DEBUG	[2147483669] Frame script registered
+1538142729972	Marionette	DEBUG	[2147483672] Frame script loaded
+1538142729973	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538142747150	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538142747370	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538142747382	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538142747502	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538142747503	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538142747503	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538142747503	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538142747503	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538142747503	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538142747532	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538142747767	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538142750435	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538142750796	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142751147	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142751572	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142752074	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142752563	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142753015	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142753501	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142753857	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142754313	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142754796	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142755272	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142755749	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142756218	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142756702	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142757293	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142757657	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142821953	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vXunmKxAyBHD"
+1538142823096	Marionette	INFO	Listening on port 38285
+1538142823163	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538142823194	Marionette	DEBUG	[2147483649] Frame script loaded
+1538142823195	Marionette	DEBUG	[2147483649] Frame script registered
+1538142823204	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538142823890	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538142824559	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538142826018	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+1538142842237	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tpFZ9IinI9ax"
+1538142843380	Marionette	INFO	Listening on port 35107
+1538142843452	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538142843483	Marionette	DEBUG	[2147483649] Frame script loaded
+1538142843483	Marionette	DEBUG	[2147483649] Frame script registered
+1538142843494	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538142843623	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538142844326	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538142845955	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:8322): dconf-WARNING **: 14:54:08.834: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538142848930	Marionette	DEBUG	[2147483669] Frame script loaded
+1538142848934	Marionette	DEBUG	[2147483669] Frame script registered
+1538142848963	Marionette	DEBUG	[2147483672] Frame script loaded
+1538142848964	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538142866115	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538142866330	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538142866341	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538142866447	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538142866447	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538142866448	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538142866448	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538142866448	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538142866448	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538142866485	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538142866753	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538142869424	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538142869784	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142870119	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142870567	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142871010	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142871512	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142872033	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142872519	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142872850	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142873384	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142873812	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142874283	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142874765	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142875275	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142875767	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142876364	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538142876734	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143009974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.akXU2UYNQzhI"
+1538143011153	Marionette	INFO	Listening on port 42593
+1538143011183	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538143011214	Marionette	DEBUG	[2147483649] Frame script loaded
+1538143011222	Marionette	DEBUG	[2147483649] Frame script registered
+1538143011234	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538143011642	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538143012174	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538143012817	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:8606): dconf-WARNING **: 14:56:55.524: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538143015635	Marionette	DEBUG	[2147483669] Frame script loaded
+1538143015640	Marionette	DEBUG	[2147483669] Frame script registered
+1538143015665	Marionette	DEBUG	[2147483672] Frame script loaded
+1538143015665	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538143032973	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538143033145	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538143033156	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538143033267	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538143033268	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538143033268	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538143033268	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538143033268	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538143033268	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538143033296	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538143033529	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538143036179	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538143036545	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143036864	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143037275	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143037772	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143038234	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143038773	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143039259	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143039609	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143040107	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143040579	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143041066	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143041526	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143041999	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143042464	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143043064	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143043430	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143126063	Marionette	DEBUG	[2147483707] Frame script loaded
+1538143126069	Marionette	DEBUG	[2147483707] Frame script registered
+1538143132200	Marionette	DEBUG	[4294967297] Frame script loaded
+1538143132201	Marionette	DEBUG	[4294967297] Frame script registered
+1538143242873	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DP2qGP57oPNJ"
+1538143244038	Marionette	INFO	Listening on port 37985
+1538143244085	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538143244116	Marionette	DEBUG	[2147483649] Frame script loaded
+1538143244117	Marionette	DEBUG	[2147483649] Frame script registered
+1538143244131	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538143244569	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538143245206	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538143245751	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:9083): dconf-WARNING **: 15:00:49.218: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538143249302	Marionette	DEBUG	[2147483669] Frame script loaded
+1538143249303	Marionette	DEBUG	[2147483669] Frame script registered
+1538143249329	Marionette	DEBUG	[2147483672] Frame script loaded
+1538143249329	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538143265900	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538143266094	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538143266108	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538143266220	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538143266220	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538143266221	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538143266221	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538143266221	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538143266221	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538143266250	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538143266513	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538143269220	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538143269578	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143269941	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143270393	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143270897	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143271387	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143271913	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143272400	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143272763	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143273287	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143273774	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143274234	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143274686	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143275163	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143275637	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143276228	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538143276554	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 8986, Gecko_IOThread] WARNING: pipe error (62): Connection reset by peer: file /build/firefox-ap9sYq/firefox-62.0+linuxmint1+tara/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538143299874	Marionette	INFO	Stopped listening on port 37985
+1538145628896	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mbrwSRqoWajC"
+1538145630057	Marionette	INFO	Listening on port 41681
+1538145630109	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538145630139	Marionette	DEBUG	[2147483649] Frame script loaded
+1538145630141	Marionette	DEBUG	[2147483649] Frame script registered
+1538145630157	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538145630729	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538145631416	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538145633126	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:9568): dconf-WARNING **: 15:40:35.747: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538145635889	Marionette	DEBUG	[2147483669] Frame script loaded
+1538145635893	Marionette	DEBUG	[2147483669] Frame script registered
+1538145635920	Marionette	DEBUG	[2147483672] Frame script loaded
+1538145635920	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538145653280	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538145653453	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538145653463	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538145653576	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538145653576	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538145653576	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538145653576	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538145653576	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538145653576	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538145653612	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538145653879	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538145656578	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538145656941	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145657261	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145657706	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145658193	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145658653	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145659123	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145659594	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145659957	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145660449	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145660916	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145661400	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145661871	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145662334	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145662821	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145663417	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145663749	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 9471, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-ap9sYq/firefox-62.0+linuxmint1+tara/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538145678153	Marionette	INFO	Stopped listening on port 41681
+1538145726724	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Q3kQ6dGBldMz"
+1538145727875	Marionette	INFO	Listening on port 45447
+1538145727944	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538145727976	Marionette	DEBUG	[2147483649] Frame script loaded
+1538145727977	Marionette	DEBUG	[2147483649] Frame script registered
+1538145727991	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538145728339	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538145728861	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538145729429	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:9876): dconf-WARNING **: 15:42:11.849: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538145731935	Marionette	DEBUG	[2147483669] Frame script loaded
+1538145731937	Marionette	DEBUG	[2147483669] Frame script registered
+1538145731962	Marionette	DEBUG	[2147483672] Frame script loaded
+1538145731966	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538145749591	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538145749791	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538145749803	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538145749910	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538145749910	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538145749910	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538145749910	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538145749910	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538145749910	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538145749948	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538145750213	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538145752908	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538145753269	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145753589	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145754049	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145754518	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145754996	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145755446	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145755931	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145756269	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145756751	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145757232	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145757712	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145758169	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145758654	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145759139	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145759721	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538145760088	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 9780, Gecko_IOThread] WARNING: pipe error (46): Connection reset by peer: file /build/firefox-ap9sYq/firefox-62.0+linuxmint1+tara/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538145815373	Marionette	INFO	Stopped listening on port 45447
+JavaScript warning: https://cdn.softwaretestinghelp.com/wp-content/cache/autoptimize/js/autoptimize_3ab80d1f0c81f8cef046234f4f5a756d.js, line 3: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-1357330-5, line 73: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-1357330-5, line 73: unreachable code after return statement
+JavaScript warning: https://cdn.softwaretestinghelp.com/wp-content/cache/autoptimize/js/autoptimize_3ab80d1f0c81f8cef046234f4f5a756d.js, line 3: unreachable code after return statement
+JavaScript warning: https://community1.pega.com/sites/pdn.pega.com/files/js/js_Iu231mfdeiEoaLXCWaLUWEw3lvVKe8tL-KJCcJMguXo.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1538146075664	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Fww0SXXUPzMB"
+1538146076781	Marionette	INFO	Listening on port 45569
+1538146076872	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538146076903	Marionette	DEBUG	[2147483649] Frame script loaded
+1538146076904	Marionette	DEBUG	[2147483649] Frame script registered
+1538146076912	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538146077324	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538146077978	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538146080663	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+
+(/usr/lib/firefox/firefox:10238): dconf-WARNING **: 15:48:04.157: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1538146084259	Marionette	DEBUG	[2147483669] Frame script loaded
+1538146084269	Marionette	DEBUG	[2147483669] Frame script registered
+1538146084300	Marionette	DEBUG	[2147483672] Frame script loaded
+1538146084300	Marionette	DEBUG	[2147483672] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538146100902	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538146101079	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538146101082	Marionette	DEBUG	[2147483649] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538146101173	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538146101177	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1538146101177	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538146101178	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1538146101178	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538146101178	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1538146101208	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538146101481	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538146104195	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538146104555	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146104891	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146105336	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146105855	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146106315	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146106795	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146107280	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146107649	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146108167	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146108638	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146109090	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146109572	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146110045	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146110536	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146111120	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538146111476	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
