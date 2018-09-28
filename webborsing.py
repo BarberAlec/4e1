@@ -5,7 +5,7 @@ import time
 import numpy as np
 import matplotlib
 
-global_delay_time = 0.1
+global_delay_time = 0.12
 # =============================================================================
 # utility functions -- ignore
 # =============================================================================
@@ -35,6 +35,46 @@ def add_worker ():
     elem.click()
     
 def minus_worker ():
+    time.sleep(global_delay_time)
+    elem = driver.find_element_by_class_name('btn.plus')
+    elem.click()
+    
+def minus_one2one ():
+    time.sleep(global_delay_time)
+    elem = driver.find_element_by_class_name("btn.minus")
+    elem.click()
+    
+def plus_one2one ():
+    time.sleep(global_delay_time)
+    elem = driver.find_element_by_class_name ("btn.plus")
+    elem.click()
+    
+def minus_daily ():
+    time.sleep(global_delay_time)
+    elems = [e for e in driver.find_elements_by_class_name("btn.minus")]
+    elems[1].click()
+    
+def plus_daily ():
+    time.sleep(global_delay_time)
+    elems = [e for e in driver.find_elements_by_class_name("btn.plus")]
+    elems[1].click()
+    
+def minus_stat ():
+    time.sleep(global_delay_time)
+    elems = [e for e in driver.find_elements_by_class_name("btn.minus")]
+    elems[2].click()
+    
+def plus_stat ():
+    time.sleep(global_delay_time)
+    elems = [e for e in driver.find_elements_by_class_name("btn.plus")]
+    elems[2].click()
+    
+def plus_proto ():
+    time.sleep(global_delay_time)
+    elem = driver.find_element_by_class_name('btn.plus')
+    elem.click()
+    
+def minus_proto ():
     time.sleep(global_delay_time)
     elem = driver.find_element_by_class_name('btn.plus')
     elem.click()
@@ -127,24 +167,14 @@ def team_characteristics (num_workers, quality, outsourcing):
                 print ("Error with changing quality")
     if quality == 4:
         quality_str = "High"
-        input_str = "//input[@class='selector ' and @data-value='4']"
+        #input_str = "//span/"
+        elem = driver.find_elements_by_xpath ("//*[contains(text(), '" + quality_str + "')]")
         try:        #for onsome bizare reason, this does work but still throws an excepti
-            elem = driver.find_elements_by_xpath(input_str)[0]
-            print (elem)
-            elem.click()
+            elem[4].click()
         except:
-                print ("Error with changing quality 5")
-        
-        try:        #for onsome bizare reason, this does work but still throws an excepti
-            driver.find_elements_by_xpath(input_str)[1].click ()
-        except:
-                print ("Error with changing quality 6")
-        
+                print ("Error with changing quality")
     
     
-    
-    #input_str = "//*[contains(text(), '" + quality_str + "')]"
-    #print (driver.find_elements_by_xpath(input_str))
     
     #configure outsoucing
     if outsourcing == 1:
@@ -168,11 +198,82 @@ def team_characteristics (num_workers, quality, outsourcing):
     driver.find_element_by_class_name ("tab-button.close.orange").click()
  
 
+def meetings_overtime (one2one, daily, stat, over):
+        
+    time.sleep(global_delay_time)
+    elem = driver.find_element_by_class_name("tab-button.open.purple")
+    elem.click()
+    
+    one21_str = "/html/body/div/div/div/div/div/div/div/div/div/table/tbody/tr/td/span/span[1]"
+    time.sleep(global_delay_time)
+    text_list = [e.text for e in driver.find_elements_by_xpath(one21_str)]
 
-#def total_setup (model,week,num_workers,quality,outsourcing,one_c,d_stand,stat_rev,over_time,num_proto):
+    #one2one
+    while True:
+        time.sleep(global_delay_time)
+        curr_one2one = int(driver.find_element_by_xpath(one21_str).text)
+        if (curr_one2one == one2one):
+            break
+        if (curr_one2one < one2one):
+            plus_one2one ()
+        if (curr_one2one > one2one):
+            minus_one2one ()
     
+    #daily standup
+    while True:
+        time.sleep (global_delay_time)
+        text_list = [e.text for e in driver.find_elements_by_xpath(one21_str)]
+        curr_daily = int(text_list[1])
+        curr_daily = curr_daily//5
+        if (curr_daily == daily):
+            break
+        if (curr_daily < daily):
+            plus_daily ()
+        if (curr_daily > daily):
+            minus_daily ()
     
+    #stat review
+    while True:
+        time.sleep (global_delay_time)
+        text_list = [e.text for e in driver.find_elements_by_xpath(one21_str)]
+        curr_stat = int(text_list[2])
+        if (curr_stat == stat):
+            break
+        if (curr_stat < stat):
+            plus_stat ()
+        if (curr_stat > stat):
+            minus_stat ()
     
+    #overtime
+    time.sleep (global_delay_time)
+    if (over == 1):
+        driver.find_element_by_class_name ("overtime-none").click ()
+    if (over == 2):
+        driver.find_element_by_class_name ("overtime-allowed.selected").click ()
+    if (over == 3):
+        driver.find_element_by_class_name ("overtime-encorage").click ()
+    
+    # exit menu screen
+    time.sleep(global_delay_time)
+    driver.find_element_by_class_name ("tab-button.close.purple").click()
+    
+
+def set_prototypes (num):
+    time.sleep(global_delay_time)
+    elem = driver.find_element_by_class_name("tab-button.open.red")
+    elem.click()
+    while True:
+        curr_proto = int(driver.find_element_by_class_name ("value").text)
+        if (curr_proto != num):
+            if (curr_proto < num):
+                plus_proto ()
+            if (curr_proto > num):
+                minus_proto ()
+        else:
+            break
+            
+    time.sleep(global_delay_time)
+    driver.find_element_by_class_name ("tab-button.close.red").click()
 
 driver = webdriver.Firefox()
 driver.get('https://hbsp.harvard.edu/coursepacks/561410')
@@ -196,7 +297,8 @@ print_timer (20)
 driver.get('https://forio.com/simulate/harvard/project-management/simulation/#prepare')
 time.sleep(2.5)
 play_now ()
-select_model (3)
-select_week (20)
-team_characteristics(6,4,2)
-
+select_model (4)
+select_week (13)
+team_characteristics(8,3,3)
+meetings_overtime (3,2,1,3)
+set_prototypes (5)
