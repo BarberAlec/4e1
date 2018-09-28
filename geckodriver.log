@@ -1,0 +1,378 @@
+1538136777164	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALECBA~1\\AppData\\Local\\Temp\\rust_mozprofile.XqUZL78PSIL0"
+1538136778588	Marionette	INFO	Listening on port 58614
+1538136778785	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538136778812	Marionette	DEBUG	[6442450945] Frame script loaded
+1538136778813	Marionette	DEBUG	[6442450945] Frame script registered
+1538136778843	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538136779144	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538136779908	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538136780595	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+[Parent 7652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6400, Chrome_ChildThread] [Child 2220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2220, Chrome_ChildThread] WARNING: pipe err[Child 8812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8812, Chrome_1538136782099	Marionette	INFO	Stopped listening on port 58614
+[GPU 10872, Chrome_ChildTh
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538136793232	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALECBA~1\\AppData\\Local\\Temp\\rust_mozprofile.iaFVcy84oBL2"
+1538136794547	Marionette	INFO	Listening on port 58666
+1538136794848	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538136794904	Marionette	DEBUG	[6442450945] Frame script loaded
+1538136794905	Marionette	DEBUG	[6442450945] Frame script registered
+1538136794918	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538136794994	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538136795528	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538136796367	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+1538136799153	Marionette	DEBUG	[6442450965] Frame script loaded
+1538136799174	Marionette	DEBUG	[6442450965] Frame script registered
+1538136799211	Marionette	DEBUG	[6442450968] Frame script loaded
+1538136799211	Marionette	DEBUG	[6442450968] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538136818596	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538136818817	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538136818823	Marionette	DEBUG	[6442450945] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538136818949	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1538136818949	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1538136818949	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1538136818949	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1538136818949	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1538136818950	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1538136819001	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538136819245	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538136821949	Marionette	DEBUG	[6442450945] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538136822397	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538136822756	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538136823230	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538136823713	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538136824192	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538136824711	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538136825193	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538136825561	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538136826131	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538136826629	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538136827110	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538136827597	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538136828157	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538136828682	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+1538137562806	Marionette	DEBUG	[6442450998] Frame script loaded
+1538137562813	Marionette	DEBUG	[6442450998] Frame script registered
+1538137570671	Marionette	DEBUG	[2147483652] Frame script loaded
+1538137570673	Marionette	DEBUG	[2147483652] Frame script registered
+[Parent 2196, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2196, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2196, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538137933924	Marionette	INFO	Stopped listening on port 58666
+[GPU 14220, Chrome_Chi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538138004363	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALECBA~1\\AppData\\Local\\Temp\\rust_mozprofile.sWjJIkOFO7Z6"
+1538138005683	Marionette	INFO	Listening on port 58826
+1538138005988	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538138006061	Marionette	DEBUG	[6442450945] Frame script loaded
+1538138006063	Marionette	DEBUG	[6442450945] Frame script registered
+1538138006074	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538138006383	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538138007116	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538138007905	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+1538138011069	Marionette	DEBUG	[6442450965] Frame script loaded
+1538138011090	Marionette	DEBUG	[6442450965] Frame script registered
+1538138011123	Marionette	DEBUG	[6442450968] Frame script loaded
+1538138011123	Marionette	DEBUG	[6442450968] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538138028084	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538138028288	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538138028295	Marionette	DEBUG	[6442450945] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538138028435	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1538138028435	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1538138028435	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1538138028435	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1538138028435	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1538138028435	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1538138028476	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538138028728	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538138031411	Marionette	DEBUG	[6442450945] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538138031864	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138032197	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138032668	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138033129	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138033593	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138034112	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138034575	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138034979	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138035463	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138035938	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138036420	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138036921	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138037387	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138037839	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 2640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2640, Chrome_ChildThread] WAR[Child 4892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4892, Chrome[Parent 10400, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538138419160	Marionette	INFO	Stopped listening on port 58826
+[GPU 8760, Chrome_
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+M event pagehide for about:blank
+1538138362198	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538138362857	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+1538138366251	Marionette	DEBUG	[6442450965] Frame script loaded
+1538138366268	Marionette	DEBUG	[6442450965] Frame script registered
+1538138366305	Marionette	DEBUG	[6442450968] Frame script loaded
+1538138366305	Marionette	DEBUG	[6442450968] Frame script registered
+1538138383050	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538138383258	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538138383271	Marionette	DEBUG	[6442450945] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538138383415	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1538138383415	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1538138383416	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1538138383416	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1538138383416	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1538138383416	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1538138383474	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538138383736	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538138386429	Marionette	DEBUG	[6442450945] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538138387094	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138387485	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138388023	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138388550	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138389071	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138389569	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138390062	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138390383	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138390861	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 2648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12012, Chrome[Parent 2648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11280, Chro1538138424054	Marionette	INFO	Stopped listening on port 58923
+[GPU 5148, Chrome_ChildThr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538138428899	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALECBA~1\\AppData\\Local\\Temp\\rust_mozprofile.YIArCiPa9B66"
+1538138430217	Marionette	INFO	Listening on port 59019
+1538138430514	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538138430541	Marionette	DEBUG	[6442450945] Frame script loaded
+1538138430542	Marionette	DEBUG	[6442450945] Frame script registered
+1538138430555	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538138430777	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538138431356	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538138432012	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+1538138435190	Marionette	DEBUG	[6442450965] Frame script loaded
+1538138435210	Marionette	DEBUG	[6442450965] Frame script registered
+1538138435245	Marionette	DEBUG	[6442450968] Frame script loaded
+1538138435245	Marionette	DEBUG	[6442450968] Frame script registered
+1538138452201	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538138452397	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538138452405	Marionette	DEBUG	[6442450945] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538138452541	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1538138452541	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1538138452541	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1538138452541	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1538138452542	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1538138452542	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1538138452587	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538138452850	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538138455554	Marionette	DEBUG	[6442450945] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538138456003	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138456345	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138456808	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138457261	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138457749	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138458262	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138458805	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138459167	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138459674	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138460182	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138460664	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138461145	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138461608	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138462106	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 1404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1404, Chrome_ChildThread] WARNING: pipe error: 10[Child 14164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538138844611	Marionette	INFO	Stopped listening on port 59019
+[GPU 7716, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ pagehide for about:blank
+1538138507910	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538138508742	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+1538138511437	Marionette	DEBUG	[6442450965] Frame script loaded
+1538138511448	Marionette	DEBUG	[6442450965] Frame script registered
+1538138511481	Marionette	DEBUG	[6442450968] Frame script loaded
+1538138511481	Marionette	DEBUG	[6442450968] Frame script registered
+1538138528964	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538138529166	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538138529169	Marionette	DEBUG	[6442450945] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538138529278	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1538138529279	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1538138529279	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1538138529279	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1538138529279	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1538138529279	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1538138529338	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538138529609	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538138532302	Marionette	DEBUG	[6442450945] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538138532792	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138533144	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138533626	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138534155	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138534682	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138535179	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138535641	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138536017	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138536492	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138537049	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138537532	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138538024	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138538496	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138538991	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 8556, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13576, Chrome_ChildThread] WARNING: pi[Child 5676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5676, Chrome_ChildThread] WA[Child 11964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538138658070	Marionette	INFO	Stopped listening on port 59111
+[GPU 14184, Chrome_ChildThread] WARNING
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+1538138617515	Marionette	DEBUG	[6442450965] Frame script registered
+1538138617551	Marionette	DEBUG	[6442450968] Frame script loaded
+1538138617552	Marionette	DEBUG	[6442450968] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538138634686	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538138634891	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538138634897	Marionette	DEBUG	[6442450945] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538138635028	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1538138635028	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1538138635029	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1538138635029	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1538138635029	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1538138635029	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1538138635064	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538138635345	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538138638125	Marionette	DEBUG	[6442450945] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538138638586	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138638923	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138639420	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138639896	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138640403	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138640880	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138641366	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138641738	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138642244	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138642732	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138643203	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138643650	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138644126	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138644592	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138645084	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 6488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6488, Chrome_ChildThread] WA[Child 6604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/bui[Child 13540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13540, Chrome_1538138801509	Marionette	INFO	Stopped listening on port 59210
+[GPU 11572, Chrome_ChildThread] WARNING: pipe err
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ed for https://hbsp.harvard.edu/coursepacks/561410
+1538138681551	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+1538138684404	Marionette	DEBUG	[6442450965] Frame script loaded
+1538138684423	Marionette	DEBUG	[6442450965] Frame script registered
+1538138684458	Marionette	DEBUG	[6442450968] Frame script loaded
+1538138684459	Marionette	DEBUG	[6442450968] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538138701751	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538138701967	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538138701975	Marionette	DEBUG	[6442450945] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538138702101	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1538138702101	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1538138702101	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1538138702102	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1538138702102	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1538138702102	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1538138702157	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538138702408	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538138705112	Marionette	DEBUG	[6442450945] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538138705548	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138705874	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138706368	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138706851	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138707381	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138707893	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138708392	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138708765	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138709248	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138709732	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138710219	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138710663	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138711152	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138711645	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138712158	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 11492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11492, Chrome_ChildThrea[Parent 10412, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2652, Chrome_ChildThread] WARNING1538138845521	Marionette	INFO	Stopped listening on port 59293
+[GPU 7828, Chrome_Chi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538138850441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALECBA~1\\AppData\\Local\\Temp\\rust_mozprofile.eU1CSTLFPbKd"
+1538138851802	Marionette	INFO	Listening on port 59380
+1538138852057	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538138852101	Marionette	DEBUG	[6442450945] Frame script loaded
+1538138852102	Marionette	DEBUG	[6442450945] Frame script registered
+1538138852115	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538138852371	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538138852918	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://hbsp.harvard.edu/coursepacks/561410
+1538138853576	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://hbsp.harvard.edu/signin
+1538138856594	Marionette	DEBUG	[6442450965] Frame script loaded
+1538138856616	Marionette	DEBUG	[6442450965] Frame script registered
+1538138856647	Marionette	DEBUG	[6442450968] Frame script loaded
+1538138856647	Marionette	DEBUG	[6442450968] Frame script registered
+JavaScript error: https://hbsp.harvard.edu/js/prod-new-relic.js, line 1: TypeError: Permission to call 'clearTimeout' denied.
+1538138873769	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://hbsp.harvard.edu/coursepacks/561410
+1538138873962	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://hbsp.harvard.edu/coursepacks/561410
+1538138873979	Marionette	DEBUG	[6442450945] Received DOM event unload for https://hbsp.harvard.edu/coursepacks/561410
+1538138874108	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1538138874108	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1538138874108	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1538138874108	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1538138874109	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1538138874109	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1538138874155	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538138874417	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://forio.com/simulate/harvard/project-management/simulation/#prepare
+1538138877165	Marionette	DEBUG	[6442450945] Received DOM event popstate for https://forio.com/simulate/harvard/project-management/simulation/#
+1538138877623	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138877965	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138878461	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138878969	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138879489	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138879995	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138880528	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138880885	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138881366	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138881844	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138882326	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138882776	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138883251	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138883748	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138884211	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538138965349	Marionette	DEBUG	[6442451003] Frame script loaded
+1538138965350	Marionette	DEBUG	[6442451003] Frame script registered
+1538138968310	Marionette	DEBUG	[2147483652] Frame script loaded
+1538138968312	Marionette	DEBUG	[2147483652] Frame script registered
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.pythonforbeginners.com/error-handling/python-try-and-except?cf_action=sync_comments&post_id=1034, line 1: SyntaxError: expected expression, got '<'

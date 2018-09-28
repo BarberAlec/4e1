@@ -90,6 +90,7 @@ def team_characteristics (num_workers, quality, outsourcing):
     elem = driver.find_element_by_id("resources-widget")
     elem.click()
     
+    # configure workers
     while True:
         time.sleep(global_delay_time)
         curr_num_workers = int(driver.find_element_by_class_name("value").text)
@@ -99,11 +100,50 @@ def team_characteristics (num_workers, quality, outsourcing):
         if (curr_num_workers > num_workers):
             minus_week()
         if (curr_num_workers == num_workers):
-            time.sleep(global_delay_time)
-            driver.find_element_by_class_name ("tab-button.close.orange").click()
-            return
+            break
+        
+    #configure quality
+    if quality == 1:
+        quality_str = "Basic"
+    if quality == 2:
+        quality_str = "Medium"
+    if quality == 3:
+        quality_str = "Medium-High"
+    if quality == 4:
+        quality_str = "High"
     
-def total_setup (model,week,num_workers,quality,outsourcing,one_c,d_stand,stat_rev,over_time,num_proto):
+    time.sleep(global_delay_time)
+    input_str = "//*[contains(text(), '" + quality_str + "')]"
+    #print (driver.find_elements_by_xpath(input_str))
+    try:
+        driver.find_elements_by_xpath(input_str)[0].click ()
+    except:
+        print ("1")
+    
+    #configure outsoucing
+    if outsourcing == 1:
+        outsourcing_str = "None"
+    if outsourcing == 2:
+        outsourcing_str = "Support Tasks"
+    if outsourcing == 3:
+        outsourcing_str = "Some Primary Tasks"
+    if outsourcing == 4:
+        outsourcing_str = "Extensive"
+    
+    time.sleep(global_delay_time)
+    input_str = "//*[contains(text(), '" + outsourcing_str + "')]"
+    try:
+        driver.find_elements_by_xpath(input_str)[0].click ()
+    except:
+        print ("2")
+    
+    # exit menu screen
+    time.sleep(global_delay_time)
+    driver.find_element_by_class_name ("tab-button.close.orange").click()
+ 
+
+
+#def total_setup (model,week,num_workers,quality,outsourcing,one_c,d_stand,stat_rev,over_time,num_proto):
     
     
     
@@ -115,9 +155,9 @@ driver.get('https://hbsp.harvard.edu/coursepacks/561410')
 
 elem = driver.find_element_by_name("email")
 elem.clear()
-elem.send_keys('barberal@tcd.ie' + Keys.TAB + 'mypassword' + Keys.RETURN)
+elem.send_keys('barberal@tcd.ie' + Keys.TAB + 'pass!' + Keys.RETURN)
 
-print_timer (22)
+print_timer (20)
 
 #open tab
 #driver.execute_script("window.open('https://forio.com/simulate/harvard/project-management/simulation/#prepare');")
