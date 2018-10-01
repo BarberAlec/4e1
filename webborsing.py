@@ -21,10 +21,72 @@ driver = webdriver.Firefox()
 # =============================================================================
 # utility functions -- ignore
 # =============================================================================
+
+#Generic count-down timer
 def print_timer (count_secs):
     for i in range (count_secs):
         print(count_secs - i)
         time.sleep (1)
+        
+        
+#These are super cheecky functions whose purpose is to retry any function if
+#there was an error on the first attempt
+def find_elem_id (strg):
+    try:
+        elem = driver.find_element_by_id(strg)
+        return elem
+    except:
+        print ("failed elem_id, giving it another go: " + strg)
+        driver.implicitly_wait(1.8)
+        try:
+            elem = driver.find_element_by_id(strg)
+        except:
+            print ("failed elem_id, giving it another go (round 2): " + strg)
+            driver.implicitly_wait(1.8)
+            elem = driver.find_element_by_id(strg)
+        return elem
+
+def find_elem_class (strg):
+    try:
+        elem = driver.find_element_by_class_name(strg)
+        return elem
+    except:
+        print ("failed class, giving it another go: " + strg)
+        driver.implicitly_wait(1.8)
+        try:    
+            elem = driver.find_element_by_class_name(strg)
+        except:
+            print ("failed class, giving it another go (round 2): " + strg)
+            driver.implicitly_wait(1.8)
+            elem = driver.find_element_by_class_name(strg)
+        return elem
+
+def find_elem_xpath (strg):
+    try:
+        elem = driver.find_element_by_xpath (strg)
+        return elem
+    except:
+        print ("failed xpath, giving it another go: " + strg)
+        driver.implicitly_wait(1.8)
+        elem = driver.find_element_by_xpath (strg)
+        return elem
+
+
+        
+# clicks an element for you...more reliably
+def clicker (elem):
+    try:
+        clicker (elem)
+    except:
+        print ("click failed with elem: " + str(elem))
+        driver.implicitly_wait(1.8)
+        try:    
+            clicker (elem)
+        except:
+            print ("click failed with elem (round 2): " + str(elem))
+            driver.implicitly_wait(1.8)
+            clicker (elem)
+
         
 def select_proj_scen ():
     time.sleep(global_delay_time)
@@ -110,11 +172,13 @@ def minus_proto ():
 # Useful functions -- dont ignore    
 # =============================================================================
 
+#Clicks Play Now button on home screen
 def play_now ():
     time.sleep(global_delay_time)
     elem = driver.find_element_by_id("play-now")
     elem.click()
-    
+
+#Selects which model you want (model : 1,2,3,4)  
 def select_model (model):
     time.sleep(global_delay_time)
     elem = driver.find_element_by_id("scope-widget")
@@ -124,7 +188,8 @@ def select_model (model):
     model = "scope-level-" + str(model)
     elem = driver.find_element_by_id(model)
     elem.click()
-    
+
+#Selects which week you want to target as your finish week (week : 1 -> 25)
 def select_week (week):
     curr_week = int(driver.find_element_by_class_name("text-xxbig").text)
     
@@ -149,7 +214,7 @@ def select_week (week):
             return
             
     
-# quality and outsourcing : 1 <-> 4
+# Slect Characteristics of your team (num_workers : 1 -> 10, quality/outsourcing : 1 -> 4)
 def team_characteristics (num_workers, quality, outsourcing):
     
     
@@ -174,7 +239,7 @@ def team_characteristics (num_workers, quality, outsourcing):
     if quality == 1:
         quality_str = "Basic"
         input_str = "//*[contains(text(), '" + quality_str + "')]"
-        try:        #for onsome bizare reason, this does work but still throws an excepti
+        try:
             driver.find_elements_by_xpath(input_str)[0].click ()
             for i in range(4):
                 try:
@@ -186,44 +251,13 @@ def team_characteristics (num_workers, quality, outsourcing):
                     raise e
         except:
              print ("Error with changing quality")
+    
+    
     if quality == 2:
         quality_str = "Medium"
         input_str = "//*[contains(text(), '" + quality_str + "')]"
-        try:        #for onsome bizare reason, this does work but still throws an excepti
+        try:
             driver.find_elements_by_xpath(input_str)[0].click ()
-            for i in range(4):
-                try:
-                    run_test = WebDriverWait(driver, 120).until( \
-                    EC.presence_of_element_located((By.XPATH, "xpath")))
-                    run_test.click()
-                    break
-                except StaleElementReferenceException as e:
-                    raise e
-        except:
-                print ("Error with changing quality")
-    if quality == 3:
-        quality_str = "Medium-High"
-        input_str = "//*[contains(text(), '" + quality_str + "')]"
-        try:        #for onsome bizare reason, this does work but still throws an excepti
-            driver.find_elements_by_xpath(input_str)[0].click ()
-            for i in range(4):
-                try:
-                    run_test = WebDriverWait(driver, 120).until( \
-                    EC.presence_of_element_located((By.XPATH, "xpath")))
-                    run_test.click()
-                    break
-                except StaleElementReferenceException as e:
-                    raise e
-        except:
-                print ("Error with changing quality")
-    if quality == 4:
-        quality_str = "High"
-        #input_str = "//span/"
-        input_str = "//*[contains(text(), '" + "High" + "')]"
-        elem = driver.find_elements_by_xpath ("//*[contains(text(), '" + quality_str + "')]")
-        
-        try:        #for onsome bizare reason, this does work but still throws an excepti
-            driver.find_elements_by_xpath(input_str)[1].click ()
             for i in range(4):
                 try:
                     run_test = WebDriverWait(driver, 120).until( \
@@ -235,6 +269,42 @@ def team_characteristics (num_workers, quality, outsourcing):
         except:
                 print ("Error with changing quality")
     
+    
+    if quality == 3:
+        quality_str = "Medium-High"
+        input_str = "//*[contains(text(), '" + quality_str + "')]"
+        try:
+            driver.find_elements_by_xpath(input_str)[0].click ()
+            for i in range(4):
+                try:
+                    run_test = WebDriverWait(driver, 120).until( \
+                    EC.presence_of_element_located((By.XPATH, "xpath")))
+                    run_test.click()
+                    break
+                except StaleElementReferenceException as e:
+                    raise e
+        except:
+                print ("Error with changing quality")
+    
+    
+    if quality == 4:
+        quality_str = "High"             
+        input_str = "//*[contains(text(), '" + "High" + "')]"        
+        try:
+            driver.find_elements_by_xpath(input_str)[3].click ()
+        except:
+                print ("Error with changing quality")
+                
+        #Useful code to debug HIGH quality button when it stops working...
+# =============================================================================
+#         count = 0
+#         for i in elem:
+#             try:
+#                 count += 1
+#                 i.click()
+#             except:
+#                 print ("elem: " + str(count) + "did not work")
+# =============================================================================
     
     
     #configure outsoucing
@@ -258,9 +328,9 @@ def team_characteristics (num_workers, quality, outsourcing):
     # exit menu screen
     time.sleep(global_delay_time)
     driver.find_element_by_class_name ("tab-button.close.orange").click()
- 
+
+#Honestly Not sure why this is here... will ignore for now...
 def team_characteristics_startup (quality, outsourcing):
-    
     
     time.sleep(global_delay_time)
     elem = driver.find_element_by_id("resources-widget")
@@ -325,6 +395,7 @@ def team_characteristics_startup (quality, outsourcing):
     driver.find_element_by_class_name ("tab-button.close.orange").click()
     driver.implicitly_wait(1)
 
+#Select Parametres for meetings overtime section (one2one/daily/stat : 0 -> 10, over : 0,1,2)
 def meetings_overtime (one2one, daily, stat, over):
         
     time.sleep(global_delay_time*3)
@@ -386,6 +457,7 @@ def meetings_overtime (one2one, daily, stat, over):
     driver.find_element_by_class_name ("tab-button.close.purple").click()
     driver.implicitly_wait(1) 
 
+#Set number of prototypes (limit is dependant on target week finish, but genaerally < 5)
 def set_prototypes (num):
     time.sleep(global_delay_time)
     elem = driver.find_element_by_class_name("tab-button.open.red")
@@ -404,8 +476,8 @@ def set_prototypes (num):
     time.sleep(global_delay_time)
     driver.find_element_by_class_name ("tab-button.close.red").click()
 
+#Pass time by specified number of weeks (num_weeks : 0 -> inf)
 def end_week (num_weeks):
-    
     while True:
         time.sleep(global_delay_time)
         curr_week = int(driver.find_element_by_class_name ("value").text)
@@ -423,7 +495,8 @@ def end_week (num_weeks):
     time.sleep(global_delay_time)
     driver.find_element_by_class_name ("modal-action.affirmative.btn").click ()
     time.sleep(global_delay_time+2.5)
-        
+
+#Get rid of pop ups
 def startup_affirm ():
     time.sleep(global_delay_time+2.5)
     driver.find_element_by_class_name ("modal-action.affirmative.btn").click ()
@@ -436,70 +509,24 @@ def main (passw):
     
     elem = driver.find_element_by_name("email")
     elem.clear()
-    elem.send_keys('wadhwae@tcd.ie' + Keys.TAB + passw + Keys.RETURN)
+    elem.send_keys('barberal@tcd.ie' + Keys.TAB + passw + Keys.RETURN)
     
-    print_timer (23)
+    print_timer (25)
     
     driver.get('https://forio.com/simulate/harvard/project-management/simulation/#prepare')
     time.sleep(2.5)
     play_now ()
     select_model (4)
     select_week (13)
-    team_characteristics(6,2,4)
+    team_characteristics(6,4,4)
     meetings_overtime (3,2,1,3)
     set_prototypes (1)
     end_week (1)        #pass 5 weeks as thats when event happens
-    team_characteristics(6,2,4)
-    meetings_overtime (3,2,1,3)
-    set_prototypes (1)
-    end_week (1)        #pass 5 weeks as thats when event happens
-    team_characteristics(6,2,4)
-    meetings_overtime (3,2,1,3)
-    set_prototypes (1)
-    end_week (1)        #pass 5 weeks as thats when event happens
-    team_characteristics(6,2,4)
-    meetings_overtime (3,2,1,3)
-    set_prototypes (1)
-    end_week (1)        #pass 5 weeks as thats when event happens
-    team_characteristics(6,2,4)
-    meetings_overtime (3,2,1,3)
-    set_prototypes (1)
-    end_week (1)        #pass 5 weeks as thats when event happens
-    time.sleep(global_delay_time+2.5)
-    startup_affirm ()
-    team_characteristics_startup(2,2)
-    meetings_overtime (3,2,1,1)
-    set_prototypes (1)
-    end_week (1)        #pass 5 weeks as thats when event happens
-    team_characteristics_startup(2,2)
-    #meetings_overtime (3,2,1,1)
-    set_prototypes (1)
-    end_week (1)        #pass 5 weeks as thats when event happens
-    team_characteristics_startup(2,2)
-    #meetings_overtime (3,2,1,1)
-    set_prototypes (1)
-    end_week (1)        #pass 5 weeks as thats when event happens
-    team_characteristics(6,2,4)
-    meetings_overtime (3,2,1,3)
-    set_prototypes (1)
-    end_week (1)        #pass 5 weeks as thats when event happens
-    team_characteristics(6,2,4)
-    meetings_overtime (3,2,1,3)
-    set_prototypes (1)
-    end_week (1)        #pass 5 weeks as thats when event happens
-    team_characteristics(6,2,4)
-    meetings_overtime (3,2,1,3)
-    set_prototypes (1)
-    end_week (1)        #pass 5 weeks as thats when event happens
-    team_characteristics(6,2,4)
-    meetings_overtime (3,2,1,3)
-    set_prototypes (1)
-    end_week (1)        #pass 5 weeks as thats when event happens
-    time.sleep(global_delay_time+2.5)
+    
   
 
 
 
 if __name__ == "__main__":
-    passw = "Eashan@07"
+    passw = "enterpasshere"
     main (passw)
